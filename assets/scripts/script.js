@@ -16,8 +16,9 @@ $(document).ready(function() {
 	}
 
   		function playMP3(){
-  			$('myAudio').play();
 			$('body').toggleClass('-visible');
+			document.getElementById("CyberBananaLabs").innerHTML="Chiki Briki i v damke!";
+			document.getElementById('myAudio').play();
 		};
 
 	function spellAdmin(){
